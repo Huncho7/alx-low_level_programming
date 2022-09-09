@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - print the alphabet in lowercase
+ * main - print the lowercase and uppercase alphabets
  *
  * Description: using the main function
- * this program prints "the alphabet in lowercase, followed by a new line"
+ * this program prints "The lowercase alphabets followed by the uppercase alphabets
  * Return: 0
  */
 int main(void)
@@ -11,10 +11,11 @@ int main(void)
 char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-if (ch != 'e' && ch != 'q')
-{
 	putchar(ch);
 }
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+	putchar(ch);
 }
 putchar('\n');
 return (0);
