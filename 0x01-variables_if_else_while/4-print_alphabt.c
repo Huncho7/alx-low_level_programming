@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - print if the number is postive, zero, or negative
+ * main - print all the alphabets except e and q
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
+ * this program prints "all the alphabets except e and q"
  * Return: 0
  */
 int main(void)
@@ -11,11 +11,10 @@ int main(void)
 char ch;
 for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	putchar(ch);
-}
-for (ch = 'A' ; ch <= 'Z' ; ch++)
+if (ch != 'e' && ch != 'q')
 {
 	putchar(ch);
+}
 }
 putchar('\n');
 return (0);
