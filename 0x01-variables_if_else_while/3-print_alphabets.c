@@ -3,7 +3,7 @@
  * main - print the lowercase and uppercase alphabets
  *
  * Description: using the main function
- * this program prints "The lowercase alphabets followed by the uppercase alphabets
+ * this program prints "The alphabets"
  * Return: 0
  */
 int main(void)
