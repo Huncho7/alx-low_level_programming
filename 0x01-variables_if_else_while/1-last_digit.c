@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print if the number is postive, zero, or negative
+* main - prints the last digit of
 *
 * Description: using the main function
-* this program prints "Programming is positive, zero, or negative
+* this program prints "The last digit of"
 * Return: 0
 */
 int main(void)
