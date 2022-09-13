@@ -1,1 +1,1 @@
-this is a repository for low level programming
+C - Functions, nested loops
